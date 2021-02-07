@@ -2,9 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
   font-family: 'Nunito', sans-serif;
 }
-
+body{
+	-webkit-text-size-adjust: none;
+}
+a, label{
+	-webkit-tap-highlight-color: transparent;
+}
 
 /*WAVES*/
 .header {
